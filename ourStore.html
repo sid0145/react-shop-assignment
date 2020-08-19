@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="ourStore.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>&#x2728 <span class="main">our Store</span> &#x2728 </h1>
+    <div id="searchWrapper">
+      <input type="text" name="searchBar" id="searchBar" placeholder="search items here..">
+    </div>
+    <div id="btn">
+      <button type="button" class="btn btn-primary " onclick="allItem()">All</button>
+      <button type="button" class="btn btn-primary" onclick="cookiesItem()">Cookies</button>
+      <button type="button" class="btn btn-primary " onclick="cakeItem()">Cake</button>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <div id="itemList"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="ourStore.js"></script>
+</body>
+
+</html>

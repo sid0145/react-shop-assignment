@@ -1,0 +1,49 @@
+ * {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #ffd571;
+  }
+  .container{
+      margin-top:20px;
+      text-align: center;
+  }
+  #btn{
+    margin-top: 20px;
+  }
+
+  button{
+    width: 80px;
+  }
+  .row{
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #itemList{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .card{
+      width: 30%;
+      height:30%;
+      margin-top: 20px;
+  }
+  .card img{
+    height: 200px;
+  }
+  .card span{
+      float: right;
+  }
+
+  #searchWrapper input{
+      width: 60%;
+      height: 40px;
+      border-radius: 1px solid black;
+  }
